@@ -14,6 +14,10 @@
 		87B9E1EC2934D2130072B12F /* YahtzeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E1EB2934D2130072B12F /* YahtzeeTests.swift */; };
 		87B9E1F62934D2130072B12F /* YahtzeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E1F52934D2130072B12F /* YahtzeeUITests.swift */; };
 		87B9E1F82934D2130072B12F /* YahtzeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E1F72934D2130072B12F /* YahtzeeUITestsLaunchTests.swift */; };
+		87B9E2092934D4240072B12F /* DieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E2082934D4240072B12F /* DieModel.swift */; };
+		87B9E20B2934D5810072B12F /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E20A2934D5810072B12F /* DieView.swift */; };
+		87B9E20D2934D6C50072B12F /* YahtzeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E20C2934D6C50072B12F /* YahtzeeModel.swift */; };
+		87B9E20F2934E94C0072B12F /* YahtzeeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9E20E2934E94C0072B12F /* YahtzeeModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		87B9E1F12934D2130072B12F /* YahtzeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahtzeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B9E1F52934D2130072B12F /* YahtzeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahtzeeUITests.swift; sourceTree = "<group>"; };
 		87B9E1F72934D2130072B12F /* YahtzeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahtzeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87B9E2082934D4240072B12F /* DieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieModel.swift; sourceTree = "<group>"; };
+		87B9E20A2934D5810072B12F /* DieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
+		87B9E20C2934D6C50072B12F /* YahtzeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahtzeeModel.swift; sourceTree = "<group>"; };
+		87B9E20E2934E94C0072B12F /* YahtzeeModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahtzeeModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				87B9E1E12934D2130072B12F /* Preview Assets.xcassets */,
+				87B9E20A2934D5810072B12F /* DieView.swift */,
+				87B9E2082934D4240072B12F /* DieModel.swift */,
+				87B9E20C2934D6C50072B12F /* YahtzeeModel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -114,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				87B9E1EB2934D2130072B12F /* YahtzeeTests.swift */,
+				87B9E20E2934E94C0072B12F /* YahtzeeModelTests.swift */,
 			);
 			path = YahtzeeTests;
 			sourceTree = "<group>";
@@ -257,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B9E20D2934D6C50072B12F /* YahtzeeModel.swift in Sources */,
+				87B9E2092934D4240072B12F /* DieModel.swift in Sources */,
+				87B9E20B2934D5810072B12F /* DieView.swift in Sources */,
 				87B9E1DD2934D2120072B12F /* ContentView.swift in Sources */,
 				87B9E1DB2934D2120072B12F /* YahtzeeApp.swift in Sources */,
 			);
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B9E20F2934E94C0072B12F /* YahtzeeModelTests.swift in Sources */,
 				87B9E1EC2934D2130072B12F /* YahtzeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
